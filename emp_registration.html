@@ -1,0 +1,141 @@
+
+None selected 
+
+Skip to content
+Using Gmail with screen readers
+in:sent 
+Conversations
+9.9 GB of 15 GB used
+Terms · Privacy · Program Policies
+Last account activity: 1 hour ago
+Details
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Information Form</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="submit"],
+select {
+  width: calc(100% - 10px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+</style>
+</head>
+<body>
+  <h2>Emplotyee registration form </h2>
+  <form action="#" method="post">
+    <label for="business_name">Business Name:</label>
+    <input type="text" id="business_name" name="business_name" required><br><br>
+
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="last_name" required><br><br>
+
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="first_name" required><br><br>
+
+    <label for="middle_name">Middle Name:</label>
+    <input type="text" id="middle_name" name="middle_name"><br><br>
+
+    <label for="zip_code">Zip Code:</label>
+    <input type="text" id="zip_code" name="zip_code" required pattern="\d{5}" title="Enter a valid 5-digit zip code"><br><br>
+
+    <label for="phone_number">Phone Number:</label>
+    <input type="tel" id="phone_number" name="phone_number" required pattern="\d{10}" title="Enter a valid 10-digit phone number"><br><br>
+
+    <label for="account_number">Account Number:</label>
+    <input type="text" id="account_number" name="account_number" required><br><br>
+
+    <label for="customer_ssn">Customer SSN:</label>
+    <input type="text" id="customer_ssn" name="customer_ssn" required pattern="\d{9}" title="Enter a valid 9-digit SSN"><br><br>
+
+    <label for="product">Product:</label>
+    <input type="text" id="product" name="product" required><br><br>
+
+    <label for="entry_date">Entry Date:</label>
+    <input type="date" id="entry_date" name="entry_date" required><br><br>
+
+    <label for="sub_category">Sub-Category:</label>
+    <select name="sub-category" id="dsrc"> 
+      <option value="BANK">BANK RATING</option>
+      <option value="credit">CREDIT APPLICATION</option>
+    </select><br><br>
+
+    <label for="document_source">Document Source:</label>
+    <select name="document source" id="subsrc">
+      <option value="Electronic">ELECTRONIC</option>
+      <option value="fax">FAX</option>
+    </select><br><br>
+
+    <!-- <label for="fax">Fax:</label>
+    <input type="text" id="fax" name="fax"><br><br> -->
+
+    <label for="routing_revolving">Routing_Revolving:</label>
+    <input type="text" id="routing_revolving" name="routing_revolving"><br><br>
+
+    <label for="processing_workqueue">Processing WorkQueue:</label>
+    <input type="text" id="processing_workqueue" name="processing_workqueue"><br><br>
+
+    <label for="doc_split">DocSplit:</label>
+    <input type="text" id="doc_split" name="doc_split"><br><br>
+
+    <input type="submit" value="Add" method="post" id="sub" onclick="navigatetopage()">
+    <!-- <button onclick="navigatetopage()">Add
+</button> -->
+</form>
+<script>
+function navigatetopage()
+{
+    window.location.href="second.html";
+}
+    </script>
+</body>
+
+</html>
+
